@@ -125,7 +125,7 @@ function chatAdmin(pesan) {
   }
 //GAPS
 function getDataGaps(database, query) {
-    const baseUrl = "https://kryon-api-smoky.vercel.app/api/get-data";
+    const baseUrl = "kryon-api-xi.vercel.app/api/get-data";
     const encodedQuery = encodeURIComponent(query);
     const encodedDatabase = encodeURIComponent(database);
     const fullUrl = `${baseUrl}?database=${encodedDatabase}&query=${encodedQuery}`;
