@@ -125,10 +125,10 @@ function chatAdmin(pesan) {
   }
 //GAPS
 function getDataGaps(database, query) {
-    const baseUrl = "https://kryon-api-xi.vercel.app/api/get-data";
+    const baseUrl = "https://script.google.com/macros/s/AKfycbwebmo-OV_eESIiPgPmChFgmbkvZbRXGamwlmQwlNBU_OUdSGmmW0PNpwtpdVQ39qgn/exec";
     const encodedQuery = encodeURIComponent(query);
     const encodedDatabase = encodeURIComponent(database);
-    const fullUrl = `${baseUrl}?database=${encodedDatabase}&query=${encodedQuery}`;
+    const fullUrl = `${baseUrl}?conn=DATABASE=${encodedDatabase}&data=${encodedQuery}`;
     return fetch(fullUrl, {
         method: 'GET',
         redirect: 'follow'
