@@ -1,3 +1,15 @@
+//redirect www khusus github page
+(function redirectToWWW() {
+  const hostname = window.location.hostname;
+  
+  if (!hostname.startsWith('www.') && !/^localhost$|^\d+\.\d+\.\d+\.\d+$/.test(hostname)) {
+    const newHostname = 'www.' + hostname;
+    const newUrl = window.location.protocol + '//' + newHostname + window.location.pathname + window.location.search + window.location.hash;
+    window.location.replace(newUrl);
+  }
+})();
+
+
 /*Variabel*/
 const dirImg = 'https://ik.imagekit.io/mustofa/web/img/';
 
