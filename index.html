@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beranda - Kryon</title>
+	<meta name="description" content="Kryon adalah solusi percetakan terpercaya untuk semua kebutuhan Anda. Melayani cetak undangan, brosur, spanduk, kartu nama, dan merchandise custom dengan kualitas terbaik dan harga bersahabat.">
+	<meta name="keywords" content="Kryon percetakan, jasa cetak terpercaya, solusi percetakan terbaik, percetakan berkualitas, percetakan murah, cepat">
+	<meta name="author" content="Kryon">
+	<meta name="robots" content="index, follow">
+	<meta property="og:title" content="Beranda - Kryon">
+	<meta property="og:description" content="Kryon adalah solusi percetakan terpercaya untuk semua kebutuhan Anda. Melayani cetak undangan, brosur, spanduk, kartu nama, dan merchandise custom dengan kualitas terbaik dan harga bersahabat.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://[###]">
+	<meta property="og:image" content="https://ik.imagekit.io/mustofa/web/img/logo-kryon-banner.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Beranda - Kryon">
+	<meta name="twitter:description" content="Kryon adalah solusi percetakan terpercaya untuk semua kebutuhan Anda. Melayani cetak undangan, brosur, spanduk, kartu nama, dan merchandise custom dengan kualitas terbaik dan harga bersahabat.">
+	<meta name="twitter:image" content="https://ik.imagekit.io/mustofa/web/img/logo-kryon-banner.png">
+	<link rel="icon" href="https://ik.imagekit.io/mustofa/web/img/logo-kryon-kotak.png" type="image/png">
+	<link rel="apple-touch-icon" href="https://ik.imagekit.io/mustofa/web/img/logo-kryon-kotak.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">  
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container flex column" id="loading-screen">
+	<img src="https://ik.imagekit.io/mustofa/web/img/logo-kryon-kotak.png"/ style="width:100px;">
+</div>
+  <main id="main">
+    <header>
+      <div class="container flex row flex-align-center flex-justify-center">
+        <div>
+          <img src="https://ik.imagekit.io/mustofa/web/img/logo-kryon-teks.png" alt="Logo Kryon Teks" style="height:30px;">
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <img src="https://ik.imagekit.io/mustofa/web/img/bannerweb-kryon.png" alt="Banner">
+    </div>
+    <div class="container flex row flex-justify-space-evenly" style="padding:20px;">
+      <button class="whatsapp" onclick="chatWa('6285161517176','Hallo kak, saya ingin bertanya tentang produk Kryon')">
+        <img src="https://ik.imagekit.io/mustofa/web/img/icon-wa.png" class="icon-small"> Hubungi Kami
+      </button>
+      <button onclick="window.location.href='/katalog.html'">
+        Lihat Katalog
+      </button>	  
+    </div>
+
+<div class="layanan container flex column" id="Cetak & Salin Dokumen">
+<h1 class="nama_layanan">Semua Layanan</h1>
+<p class="keterangan_layanan">Mulai dari cetak dokumen, desain grafis, sampai produk custom dan layanan digital—semua ada di sini buat bantuin kebutuhan kamu, cepat, mudah, dan hasilnya keren!</P>
+<div class="produk-container" id="layanan-1"></div>
+</div>
+    <div id="nav-bottom"></div>
+  </main>
+<script src="js/main.js" defer></script>
+<script>
+// Event DOM Loaded
+document.addEventListener("DOMContentLoaded", function () {
+(async () => {  
+  const data = await getDataMainProduct();
+  productRendering({
+  containerId: 'layanan-1',
+  dataProduk: data,
+  filterKey: 'jenis_produk',
+  filterValue: 'utama'
+  }); 
+  window.addEventListener('scroll', resetTimerPopWa);
+  resetTimerPopWa();
+  loadingScreen.classList.add('imp-hidden');
+})();
+});
+</script>
+</body>
+</html>
