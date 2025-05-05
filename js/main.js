@@ -9,6 +9,29 @@
   }
 })();
 
+function insertGtagScript() {
+  const head = document.head;
+  if (!head) return;
+
+  if (document.querySelector('script[src*="gtag/js?id=G-7D0RLQEEQD"]')) return;
+
+  const gtagScript = document.createElement('script');
+  gtagScript.async = true;
+  gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-7D0RLQEEQD';
+
+  const gtagConfigScript = document.createElement('script');
+  gtagConfigScript.text = `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7D0RLQEEQD');
+  `;
+  head.appendChild(gtagScript);
+  head.appendChild(gtagConfigScript);
+}
+
+insertGtagScript();
+
 
 /*Variabel*/
 const dirImg = 'https://ik.imagekit.io/mustofa/web/img/';
