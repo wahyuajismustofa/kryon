@@ -398,7 +398,9 @@ if (id) {
 } else {
 	preview = true;
 	isiKonten(data_def);
-	loadingScreen.classList.add('imp-hidden');
+	setTimeout(() => {
+		loadingScreen.classList.add('imp-hidden');
+	}, 2000);
 }
 if (preview){
 	previewCont.classList.remove('imp-hidden')
