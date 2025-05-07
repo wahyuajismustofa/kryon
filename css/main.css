@@ -370,7 +370,7 @@ button:hover, {
   z-index: 9999;
 }
 #loading-screen img {
-  animation: bounce 1s infinite; 
+  animation: bounce 2s infinite; 
 }
 /* halaman utama */
 #filterKatalog{
