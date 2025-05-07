@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Ambil Data dari Google Apps Script</title>
+</head>
+<body>
+  <h1>Ambil Data</h1>
+  <button onclick="ambilData()">Ambil Data</button>
+
+  <pre id="output">Klik tombol untuk melihat hasil...</pre>
+
+  <script>
+    async function ambilData() {
+      const params = new URLSearchParams({
+        conn: 'DATABASE=kryon',
+        data: 'SELECT * FROM produk'
+      });
+
+      const url = `https://wam-kryon-api.vercel.app/api/get-data?${params.toString()}`;
+      
+      try {
+        const response = await fetch(url, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error('HTTP error ' + response.status);
+        }
+
+        const data = await response.json();
+        document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        document.getElementById("output").textContent = 'Terjadi kesalahan:\n' + err.message;
+      }
+    }
+  </script>
+</body>
+</html>
