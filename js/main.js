@@ -159,7 +159,7 @@ function chatAdmin(pesan) {
     timerPopWa = setTimeout(showPopWa, 5000);
   }
 //GAPS
-function getDataGaps(database, query) {
+function gaps(database, query) {
     const baseUrl = "https://wam-kryon-api.vercel.app/api/get-data";
     const encodedQuery = encodeURIComponent(query);
     const encodedDatabase = encodeURIComponent(database);
@@ -186,27 +186,27 @@ function getDataGaps(database, query) {
     });
 }
 async function getDataMainProduct() {
-  const result = await getDataGaps(
+  const result = await gaps(
     'kryon',
     'SELECT id,jenis_produk,nama,img,kategori1,kategori2,status,keterangan FROM produk WHERE jenis_produk=utama'
   );
   return result?.data ?? [];
 }
 async function getDataProductUc() {
-  const result = await getDataGaps(
+  const result = await gaps(
     'kryon',
     'SELECT id,nama,img,kategori1,kategori2,status,keterangan FROM produk WHERE nama=Undangan-Pernikahan'
   );
   return result?.data ?? [];
 }
 async function getDataAntrian() {
-    const result = await getDataGaps('kryon', 'SELECT * FROM antrian');
+    const result = await gaps('kryon', 'SELECT * FROM antrian');
 	return result?.data?? [];
 }
 async function getDataSingleProduct() {
     const urlParams = new URLSearchParams(window.location.search);
     const id_produk = urlParams.get('id');
-    const result = await getDataGaps('kryon', `SELECT * FROM produk WHERE id=${id_produk}`);
+    const result = await gaps('kryon', `SELECT * FROM produk WHERE id=${id_produk}`);
     return result?.data ?? [];
 }
 
