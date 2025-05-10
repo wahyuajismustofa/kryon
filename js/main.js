@@ -8,7 +8,9 @@
     window.location.replace(newUrl);
   }
 })();
-
+if (location.protocol === 'http:') {
+  location.href = 'https://' + location.hostname + location.pathname + location.search + location.hash;
+}
 function insertGtagScript() {
   const head = document.head;
   if (!head) return;
