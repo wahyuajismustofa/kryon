@@ -2,11 +2,11 @@
   "page": [
     {
       "path": "/",
-      "data": "produk['layanan']"
+      "data": "layanan"
     },
     {
       "path": "/undangan-cetak",
-      "data": "produk['undangan-cetak']"
+      "data": "undangan-cetak"
     }
   ]
 }
