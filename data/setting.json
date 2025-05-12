@@ -1,12 +1,36 @@
 {
-  "page": [
+  "katalog": [
     {
-      "path": "/",
-      "data": "layanan"
+      "path": "/?p=layanan",
+      "judul": "Semua Layanan",
+      "deskripsi": "Mulai dari cetak dokumen, desain grafis, sampai produk custom dan layanan digital—semua ada di sini buat bantuin kebutuhan kamu, cepat, mudah, dan hasilnya keren!",
+      "fungsi": "",
+      "data": "layanan",
+      "rendering": "productRendering",
+      "rendering_filter1": "",
+      "rendering_filter2": "",
+      "rendering_def_filter": ""
     },
     {
-      "path": "/undangan-cetak",
-      "data": "undangan-cetak"
+      "path": "/",
+      "judul": "Katalog Undangan Pernikahan",
+      "deskripsi": "Temukan undangan cetak eksklusif untuk membuat momen spesialmu lebih berkesan. Pilih tema favoritmu dan pesan sekarang untuk desain unik berkualitas tinggi!",
+      "fungsi": "",
+      "data": "undangan-cetak",
+      "rendering": "productRenderingWithFilters",
+      "rendering_filter1": "kategori1",
+      "rendering_filter2": "status",
+      "rendering_def_filter": "Ready"
+    }
+  ],
+  "menu": [
+    {
+      "label": "Undangan Cetak",
+      "url": "/"
+    },
+    {
+      "label": "Layanan",
+      "url": "/?p=layanan"
     }
   ]
 }
