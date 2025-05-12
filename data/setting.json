@@ -3,6 +3,10 @@
     {
       "path": "/",
       "data": "produk['layanan']"
+    },
+    {
+      "path": "/undangan-cetak",
+      "data": "produk['undangan-cetak']"
     }
   ]
 }
