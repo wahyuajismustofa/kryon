@@ -32,5 +32,12 @@
       "label": "Layanan",
       "url": "/?p=layanan"
     }
-  ]
+  ],
+  "variabel": [
+    {
+      "google_tag": "G-7D0RLQEEQD",
+      "wa_admin": 6285161517176
+    }
+  ],
+  "update": "13/5/2025, 05.55.29"
 }
