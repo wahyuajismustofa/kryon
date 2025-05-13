@@ -454,7 +454,7 @@ async function syncData() {
 	const data2 = await res2.json();
 
     if (res1.ok && res2.ok) {
-      console.log("Data Setting dan Produk berhasil diperbarui.";
+      console.log("Data Setting dan Produk berhasil diperbarui.");
 	} else {
       console.log("Gagal memperbarui data: " + data.error);
     }
