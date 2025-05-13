@@ -213,7 +213,7 @@ function renderSingleProduk(produk){
 
     <div class="single_produk_cta container flex row flex-align-center flex-justify-space-evenly" style="background-color: var(--warna-bg-sekunder); padding: 20px;">
       <button onclick="sharePage('${cleanNama} ${kategori1} ${kategori2}', 'Lihat produk ini')">Bagikan</button>
-      <button onclick="chatAdmin('Hallo saya ingin memesan ${cleanNama} ${kategori1} ${kategori2}')">Order</button>
+<button onclick="chatAdmin('Hallo saya ingin memesan ${cleanNama} ${kategori1} ${kategori2} Link Produk: ${window.location.href}')">Order</button>
     </div>
   `;
 }
