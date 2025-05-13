@@ -23,7 +23,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">  
 	
-	<script src="js/main.js" defer></script>
+	<script src="js/produk.js" defer></script>
 
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -32,13 +32,18 @@
 <body>
 <!-- Loading Screen-->
 <div class="container flex column" id="loading-screen">
-	<img src="https://ik.imagekit.io/mustofa/web/img/logo-kryon-kotak.png"/ style="width:100px;">
+	<div class="spinner"></div>
 </div>
 <main id="main">
   <header>
-    <div class="container flex row flex-align-center flex-justify-center">
-      <div><img src="https://ik.imagekit.io/mustofa/web/img/logo-kryon-teks.png" alt="Logo Kryon Teks" style="height:30px;"></div>
-    </div>
+      <div class="container flex row flex-align-center flex-justify-center">
+			<div id="nav">
+			<div class="container-20p"><span class="menu-toggle" id="burger">☰</span></div>
+			<div class="container-60p"><img src="https://ik.imagekit.io/mustofa/web/img/logo-kryon-teks.png" alt="Logo Kryon Teks" style="height:30px;"></div>
+			<div class="container-20p"></div>
+			</div>
+			<div class="dropdown imp-hidden" id="dropdownMenu"></div>
+      </div>
   </header>
 
   <div class="single_produk container flex column flex-align-center flex-justify-center" id="produkContainer">
@@ -46,20 +51,5 @@
 
   <div id="nav-bottom"></div>
 </main>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-const urlParams = new URLSearchParams(window.location.search);
-  if (!urlParams.has('id')) {
-    window.location.href = '/index.html';
-	}
-(async () => {
-  const produk = await getDataSingleProduct();
-  renderSingleProduk(produk[0]);
-  window.addEventListener('scroll', resetTimerPopWa);
-  resetTimerPopWa();
-  loadingScreen.classList.add('imp-hidden');
-})();
-});
-</script>
 </body>
 </html>
