@@ -4,7 +4,7 @@
       "id": 1,
       "nama": "Print dokumen",
       "kategori1": "Cetak & Salin Dokumen",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (1).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/print.jpg",
       "keterangan": "warna: hitam putih, warna | ukuran: A4, F4, A3",
       "description": "Cetak dokumen hitam putih atau berwarna dengan kualitas tajam dan cepat."
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "nama": "Fotokopi",
       "kategori1": "Cetak & Salin Dokumen",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (2).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/fotocopy.jpg",
       "keterangan": "warna: hitam putih, warna | ukuran: A4",
       "description": "Layanan fotokopi dokumen dengan hasil jelas dan rapi, cocok untuk kebutuhan pribadi maupun kantor."
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "nama": "Scan dokumen / gambar",
       "kategori1": "Cetak & Salin Dokumen",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (3).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/scan.jpg",
       "keterangan": "output: jpg, jpeg, png, dan pdf",
       "description": "Digitalisasi dokumen dan gambar dalam format berkualitas tinggi, siap dikirim atau disimpan."
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "nama": "Jilid",
       "kategori1": "Finishing & Pelengkap Dokumen",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (5).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/jilid.jpg",
       "keterangan": "lakban, soft cover, hard cover",
       "description": "Pilihan jilid spiral, lem panas, atau staples rapi untuk presentasi, laporan, dan buku."
     },
@@ -36,7 +36,7 @@
       "id": 5,
       "nama": "Laminating dan press dokumen",
       "kategori1": "Finishing & Pelengkap Dokumen",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (6).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/laminating.jpg",
       "keterangan": "-",
       "description": "Lindungi dokumen penting dengan laminasi doff atau glossy yang tahan lama."
     },
@@ -44,7 +44,7 @@
       "id": 6,
       "nama": "Desain grafis",
       "kategori1": "Desain & Cetak Grafis",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (8).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/desain-grafis.jpg",
       "keterangan": "jenis: logo, brosur, banner, kartu nama",
       "description": "Jasa desain profesional untuk brosur, logo, kemasan, dan berbagai kebutuhan visual lainnya."
     },
@@ -52,7 +52,7 @@
       "id": 7,
       "nama": "Undangan pernikahan / acara",
       "kategori1": "Desain & Cetak Grafis",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (1).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/undangan.jpg",
       "keterangan": "",
       "description": "Cetak undangan eksklusif dengan desain elegan untuk pernikahan, khitanan, atau acara lainnya."
     },
@@ -60,7 +60,7 @@
       "id": 8,
       "nama": "Sertifikat, piagam",
       "kategori1": "Desain & Cetak Grafis",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (12).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/sertifikat.jpg",
       "keterangan": "",
       "description": "Cetak sertifikat dan piagam formal dengan kertas premium dan desain elegan."
     },
@@ -68,7 +68,7 @@
       "id": 9,
       "nama": "Buku Yasin & tahlil",
       "kategori1": "Desain & Cetak Grafis",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (11).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/yasin.jpg",
       "keterangan": "",
       "description": "Buku Yasin dan tahlil custom, tersedia dalam berbagai desain dan ukuran."
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "nama": "Banner",
       "kategori1": "Media Promosi & Branding",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (13).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/banner.jpg",
       "keterangan": "jenis: Banner, X-Banner, Roll Up Banner",
       "description": "Cetak banner untuk promosi, acara, atau kampanye dengan bahan tahan cuaca."
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "nama": "Spanduk",
       "kategori1": "Media Promosi & Branding",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (13).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/spanduk.jpg",
       "keterangan": "jenis: Flexi, One Way, Backlit",
       "description": "Spanduk custom untuk kegiatan outdoor maupun indoor, tersedia berbagai ukuran."
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "nama": "Stiker / label produk",
       "kategori1": "Media Promosi & Branding",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (14).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/stiker.jpg",
       "keterangan": "bahan: vinyl, transparan, chromo",
       "description": "Stiker dan label custom dengan potongan presisi untuk branding produk Anda."
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "nama": "Cetak mug, tumbler, botol custom",
       "kategori1": "Produk Custom & Merchandise",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (16).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/merchandise.jpg",
       "keterangan": "",
       "description": "Produk minum custom dengan desain pribadi, cocok untuk hadiah atau promosi."
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "nama": "Sablon kaos",
       "kategori1": "Produk Custom & Merchandise",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (17).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/sablon.jpg",
       "keterangan": "",
       "description": "Sablon kaos berkualitas untuk kebutuhan komunitas, merchandise, atau acara."
     },
@@ -116,7 +116,7 @@
       "id": 15,
       "nama": "Pin, gantungan kunci, ID card",
       "kategori1": "Produk Custom & Merchandise",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (18).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/gantungan-kunci.jpg",
       "keterangan": "",
       "description": "Aksesori custom untuk souvenir, identitas acara, atau kebutuhan branding."
     },
@@ -124,7 +124,7 @@
       "id": 16,
       "nama": "Kalender",
       "kategori1": "Produk Custom & Merchandise",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (19).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/kalender.jpg",
       "keterangan": "",
       "description": "Cetak kalender dinding atau meja dengan desain custom untuk promosi atau hadiah akhir tahun."
     },
@@ -132,7 +132,7 @@
       "id": 17,
       "nama": "Desain CV profesional",
       "kategori1": "Layanan Digital & Personal",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (20).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/cv.jpg",
       "keterangan": "",
       "description": "Bikin CV yang menonjol dan elegan, siap pakai untuk lamaran kerja dan LinkedIn."
     },
@@ -140,7 +140,7 @@
       "id": 18,
       "nama": "Edit foto / pas foto / background",
       "kategori1": "Layanan Digital & Personal",
-      "img": "https://ik.imagekit.io/mustofa/web/img/foto-produk (22).jpg",
+      "img": "https://ik.imagekit.io/mustofa/web/img/produk/edit-foto.jpg",
       "keterangan": "",
       "description": "Retouch foto, ganti background, dan edit pas foto untuk dokumen resmi dan kebutuhan digital."
     }
@@ -6329,5 +6329,5 @@
       "description": "Undangan pernikahan elegan dan eksklusif dengan berbagai pilihan tema dan desain, siap mencerminkan momen spesial Anda dalam setiap detail."
     }
   ],
-  "update": "15/5/2025, 19.19.44"
+  "update": "15/5/2025, 19.22.06"
 }
