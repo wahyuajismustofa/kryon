@@ -1,5 +1,12 @@
-//redirect www khusus github page
+if (
+  location.hostname === "localhost" ||
+  location.hostname === "127.0.0.1" ||
+  location.hostname.startsWith("192.168.")
+) {
+  console.log("Sedang di localhost, fungsi redirect khusus github page tidak dijalankan");
+} else {
 
+//redirect khusus github page
 (function redirectToWWW() {
   const hostname = window.location.hostname;
   
@@ -11,6 +18,8 @@
 })();
 if (location.protocol === 'http:') {
   location.href = 'https://' + location.hostname + location.pathname + location.search + location.hash;
+}
+
 }
 
 function insertGtagScript() {
