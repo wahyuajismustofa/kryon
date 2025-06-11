@@ -426,51 +426,66 @@ function renderSingleProduk(produk){
 }
 
 function cekDanSync() {
-  if (!setting.update){
-	syncData();
-	return
-  };
-  
-  const [tanggal, waktu] = setting.update.split(', ');
-  const [hari, bulan, tahun] = tanggal.split('/').map(Number);
-  const [jam, menit, detik] = waktu.split('.').map(Number);
+  try {
+    if (!setting.updated) {
+      console.log("Belum ada data update, memulai sinkronisasi...");
+      syncData();
+      return;
+    }
 
-  const lastUpdate = new Date(tahun, bulan - 1, hari, jam, menit, detik);
-  const now = new Date();
+    // Misal: '11/6/2025, 19.07.54'
+    const [tanggal, waktu] = setting.updated.split(', ');
 
-  const satuHari = 24 * 60 * 60 * 1000;
+    // Pecah tanggal
+    const [hari, bulan, tahun] = tanggal.split('/').map(Number);
 
-  if (now - lastUpdate > satuHari) {
+    // Pecah waktu
+    const [jam, menit, detik] = waktu.split('.').map(Number);
+
+    // Buat objek Date
+    const lastUpdate = new Date(tahun, bulan - 1, hari, jam, menit, detik);
+    const now = new Date();
+
+    const satuHari = 24 * 60 * 60 * 1000;
+
+    if (now - lastUpdate > satuHari) {
+      console.log("Data lebih dari 1 hari, melakukan sinkronisasi ulang...");
+      syncData();
+    } else {
+      console.log("Data masih uptodate, tidak perlu sync.");
+    }
+  } catch (error) {
+    console.error("Format setting.updated tidak valid:", error);
     syncData();
   }
 }
+
+
 async function syncData() {
   try {
-	document.getElementById("status").innerText = "Memproses...";
-    const res1 = await fetch("https://wam-kryon-api.vercel.app/api/gaps-v1", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ db: 'produk',repo:root.repo })
-    });
-	const res2 = await fetch("https://wam-kryon-api.vercel.app/api/gaps-v1", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ db: 'setting',repo:root.repo })
-    });
-	
+    const GAS_BASE_URL = "https://script.google.com/macros/s/AKfycbwYIx89d6ij_YaGIp6b51shXvidJ4lADni5syseXZWM6SRlWAxAOa4i2UlSD03AxXzKpQ/exec";
+
+    // Bangun URL lengkap dengan parameter untuk masing-masing permintaan
+    const url1 = `${GAS_BASE_URL}?conn=DATABASE=${root.repo}_produk`;
+    const url2 = `${GAS_BASE_URL}?conn=DATABASE=${root.repo}_setting`;
+
+    // Kirim permintaan GET ke Google Apps Script Web App
+    const res1 = await fetch(url1);
+    const res2 = await fetch(url2);
 
     const data1 = await res1.json();
-	const data2 = await res2.json();
+    const data2 = await res2.json();
 
-    if (res1.ok && res2.ok) {
+    if (data1.status === true && data2.status === true) {
       console.log("Data Setting dan Produk berhasil diperbarui.");
-	} else {
-      console.log("Gagal memperbarui data: " + data.error);
+    } else {
+      console.log("Gagal memperbarui data. Status:", data1, data2);
     }
   } catch (error) {
-    console.error(error);
+    console.error("Terjadi kesalahan:", error);
   }
 }
+
 
 function replaceChar(text, targetChar, replacementChar) {
   if (text.includes(targetChar)) {
