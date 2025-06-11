@@ -3,7 +3,7 @@
     {
       "path": "/?p=layanan",
       "judul": "Semua Layanan",
-      "deskripsi": "Mulai dari cetak dokumen, desain grafis, sampai produk custom dan layanan digital—semua ada di sini buat bantuin kebutuhan kamu, cepat, mudah, dan hasilnya keren!",
+      "deskripsi": "Mulai dari cetak dokumen, desain grafis, sampai produk custom dan layanan digital?semua ada di sini buat bantuin kebutuhan kamu, cepat, mudah, dan hasilnya keren!",
       "fungsi": "",
       "data": "layanan",
       "rendering": "productRendering",
@@ -39,5 +39,5 @@
       "wa_admin": 6285161517176
     }
   ],
-  "update": "15/5/2025, 19.22.10"
+  "updated": "11/6/2025, 19.04.34"
 }
