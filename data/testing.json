@@ -1,5 +1,5 @@
 {
-  "undangan_web": [
+  "Undangan_Web": [
     {
       "id": 1,
       "nama": "Bulan & Bintang",
@@ -9,7 +9,7 @@
       "link_produk": "https://walimah.artoprintingpbg.com/bulan-bintang/?id=1"
     }
   ],
-  "layanan": [
+  "Layanan": [
     {
       "id": 1,
       "nama": "Print dokumen",
@@ -173,7 +173,7 @@
       "link_produk": "/produk.html?p=layanan&id=18"
     }
   ],
-  "undangan_cetak": [
+  "Undangan_Cetak": [
     {
       "id": 1,
       "nama": "Undangan Avis 100",
@@ -5257,7 +5257,7 @@
       "link_produk": "/produk.html?p=undangan-cetak&id=462"
     }
   ],
-  "mug": [
+  "Mug": [
     {
       "id": 1,
       "nama": "Mug 1",
@@ -6159,7 +6159,7 @@
       "link_produk": "/produk.html?p=mug&id=100"
     }
   ],
-  "aqiqah": [
+  "Aqiqah": [
     {
       "id": 1,
       "nama": "Aqiqah 1",
@@ -6836,7 +6836,7 @@
       "link_produk": "/produk.html?p=aqiqah&id=75"
     }
   ],
-  "kartu_ucapan": [
+  "Kartu_Ucapan": [
     {
       "id": 1,
       "nama": "Kartu Ucapan",
@@ -6904,7 +6904,7 @@
       "link_produk": "/produk.html?p=kartu-ucapan&id=6"
     }
   ],
-  "pigura": [
+  "Pigura": [
     {
       "id": 1,
       "nama": "pigura wendy 1",
@@ -7365,7 +7365,7 @@
       "link_produk": "/produk.html?p=pigura&id=51"
     }
   ],
-  "kartu_nama": [
+  "Kartu_Nama": [
     {
       "id": 1,
       "nama": "Kartu Nama 1",
@@ -7826,7 +7826,7 @@
       "link_produk": "/produk.html?p=kartu-nama&id=51"
     }
   ],
-  "cover": [
+  "Cover": [
     {
       "id": 1,
       "nama": "Cover Iqro 1",
@@ -8143,5 +8143,5 @@
       "link_produk": "/produk.html?p=cover&id=35"
     }
   ],
-  "updated": "1/7/2025, 02.17.00"
+  "updated": "1/7/2025, 03.22.30"
 }
