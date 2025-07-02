@@ -3,7 +3,7 @@
     {
       "nama": "Arto_Printing",
       "pesan": "test",
-      "kehadiran": "Hadir",
+      "kehadiran": "hadir",
       "acara": "Akad_Nikah",
       "waktu": "2025-07-02T18:48:15.000Z"
     },
@@ -36,5 +36,5 @@
       "waktu": "2025-07-02T18:55:39.000Z"
     }
   ],
-  "updated": "3/7/2025, 03.12.03"
+  "updated": "3/7/2025, 03.15.23"
 }
