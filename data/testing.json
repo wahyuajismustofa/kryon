@@ -1,32 +1,23 @@
 {
-  "updated": "11/7/2025, 01.59.13",
+  "updated": "11/7/2025, 02.18.42",
   "tamu": [
     {
       "nama": "Arto Printing",
-      "waktu-pesan": "2025-06-20T19:02:00.000Z",
-      "pesan": "Yeee",
+      "waktu": "",
       "kehadiran": "Hadir",
-      "acara": "Resepsi",
-      "doa": "",
-      "waktu": ""
+      "doa": ""
     },
     {
       "nama": "Wahyu Ajis Mustofa",
-      "waktu-pesan": "2025-07-03T17:03:00.000Z",
-      "pesan": "Hi, Selamat ya.",
+      "waktu": "11/07/2025, 02.18.38",
       "kehadiran": "Hadir",
-      "acara": "Resepsi",
-      "doa": "aaa",
-      "waktu": "11/07/2025, 01.59.10"
+      "doa": "aaa"
     },
     {
       "nama": "Teman Spesial",
-      "waktu-pesan": "2025-07-10T01:55:00.000Z",
-      "pesan": "Cuma testing doang...",
+      "waktu": "",
       "kehadiran": "Hadir",
-      "acara": "Resepsi",
-      "doa": "",
-      "waktu": ""
+      "doa": ""
     }
   ]
 }
