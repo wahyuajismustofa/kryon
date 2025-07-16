@@ -433,16 +433,12 @@ function cekDanSync() {
       return;
     }
 
-    // Misal: '11/6/2025, 19.07.54'
     const [tanggal, waktu] = setting.updated.split(', ');
 
-    // Pecah tanggal
     const [hari, bulan, tahun] = tanggal.split('/').map(Number);
 
-    // Pecah waktu
     const [jam, menit, detik] = waktu.split('.').map(Number);
 
-    // Buat objek Date
     const lastUpdate = new Date(tahun, bulan - 1, hari, jam, menit, detik);
     const now = new Date();
 
