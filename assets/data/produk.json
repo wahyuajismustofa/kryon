@@ -4,7 +4,8 @@
       "id": 1,
       "kode": "bulan-bintang",
       "nama": "Bulan & Bintang",
-      "kategori": "Pernikahan",
+      "Acara": "Pernikahan",
+      "Tema": "Premium",
       "img": "https://ik.imagekit.io/mustofa/web/undangan-web/foto-produk-undangan-web-bulan-bintang.webp",
       "keterangan": "Undangan Pernikahan tema Bulan & Bintang",
       "link_produk": "https://walimah.artoprintingpbg.com/bulan-bintang/?to=Teman_Spesial"
@@ -13,7 +14,8 @@
       "id": 2,
       "kode": "zahra-naufal",
       "nama": "Zahra & Naufal",
-      "kategori": "Pernikahan",
+      "Acara": "Pernikahan",
+      "Tema": "Premium",
       "img": "https://ik.imagekit.io/mustofa/web/undangan-web/foto-produk-undangan-web-zahra-naufal.webp",
       "keterangan": "Undangan Pernikahan tema Zahra & Naufal",
       "link_produk": "https://walimah.artoprintingpbg.com/zahra-naufal/?to=Teman_Spesial"
@@ -22,7 +24,8 @@
       "id": 3,
       "kode": "nadya-fathan",
       "nama": "Nadya & Fathan",
-      "kategori": "Pernikahan",
+      "Acara": "Pernikahan",
+      "Tema": "Premium",
       "img": "https://ik.imagekit.io/mustofa/web/undangan-web/foto-produk-undangan-web-nadya-fathan.webp",
       "keterangan": "Undangan Pernikahan tema Nadya & Fathan",
       "link_produk": "https://walimah.artoprintingpbg.com/nadya-fathan/?to=Teman_Spesial"
@@ -31,7 +34,8 @@
       "id": 4,
       "kode": "anya-jordi",
       "nama": "Anya & Jordi",
-      "kategori": "Pernikahan",
+      "Acara": "Pernikahan",
+      "Tema": "Premium",
       "img": "https://ik.imagekit.io/mustofa/web/undangan-web/foto-produk-undangan-web-anya-jordi.webp",
       "keterangan": "Undangan Pernikahan tema Anya & Jordi",
       "link_produk": "https://walimah.artoprintingpbg.com/anya-jordi/?to=Teman_Spesial"
@@ -40,7 +44,8 @@
       "id": 5,
       "kode": "aisyah-farhan",
       "nama": "Aisyah & Farhan",
-      "kategori": "Pernikahan",
+      "Acara": "Pernikahan",
+      "Tema": "Premium",
       "img": "https://ik.imagekit.io/mustofa/web/undangan-web/foto-produk-undangan-web-aisyah-farhan.webp",
       "keterangan": "Undangan Pernikahan tema Aisyah & Farhan",
       "link_produk": "https://walimah.artoprintingpbg.com/aisyah-farhan/?to=Teman_Spesial"
@@ -49,7 +54,8 @@
       "id": 6,
       "kode": "alia-johan",
       "nama": "Alia & Johan",
-      "kategori": "Pernikahan",
+      "Acara": "Pernikahan",
+      "Tema": "Premium",
       "img": "https://ik.imagekit.io/mustofa/web/undangan-web/foto-produk-undangan-web-alia-johan.webp",
       "keterangan": "Undangan Pernikahan tema Alia & Johan",
       "link_produk": "https://walimah.artoprintingpbg.com/alia-johan/?to=Teman_Spesial"
@@ -58,7 +64,8 @@
       "id": 7,
       "kode": "amira-hilmi",
       "nama": "Amira & Hilmi",
-      "kategori": "Pernikahan",
+      "Acara": "Pernikahan",
+      "Tema": "Premium",
       "img": "https://ik.imagekit.io/mustofa/web/undangan-web/foto-produk-undangan-web-amira-hilmi.webp",
       "keterangan": "Undangan Pernikahan tema Amira & Hilmi",
       "link_produk": "https://walimah.artoprintingpbg.com/amira-hilmi/?to=Teman_Spesial"
@@ -67,7 +74,8 @@
       "id": 8,
       "kode": "anpanman",
       "nama": "Anpanman",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-anpanman.webp",
       "keterangan": "Undangan Khitan tema Anpanman",
       "link_produk": "https://khitan.artoprintingpbg.com/anpanman/?to=Sahabat"
@@ -76,7 +84,8 @@
       "id": 9,
       "kode": "astroman",
       "nama": "Astroman",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-astroman.webp",
       "keterangan": "Undangan Khitan tema Astroman",
       "link_produk": "https://khitan.artoprintingpbg.com/astroman/?to=Sahabat"
@@ -85,7 +94,8 @@
       "id": 10,
       "kode": "astroman-2",
       "nama": "Astroman 2",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-astroman-2.webp",
       "keterangan": "Undangan Khitan tema Astroman 2",
       "link_produk": "https://khitan.artoprintingpbg.com/astroman-2/?to=Sahabat"
@@ -94,7 +104,8 @@
       "id": 11,
       "kode": "astronout",
       "nama": "Astronout",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-astronout.webp",
       "keterangan": "Undangan Khitan tema Astronout",
       "link_produk": "https://khitan.artoprintingpbg.com/astronout/?to=Sahabat"
@@ -103,7 +114,8 @@
       "id": 12,
       "kode": "astronout-2",
       "nama": "Astronout 2",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-astronout-2.webp",
       "keterangan": "Undangan Khitan tema Astronout 2",
       "link_produk": "https://khitan.artoprintingpbg.com/astronout-2/?to=Sahabat"
@@ -112,7 +124,8 @@
       "id": 13,
       "kode": "beautiful-marine",
       "nama": "Beautiful Marine",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-beautiful-marine.webp",
       "keterangan": "Undangan Khitan tema Beautiful Marine",
       "link_produk": "https://khitan.artoprintingpbg.com/beautiful-marine/?to=Sahabat"
@@ -121,7 +134,8 @@
       "id": 14,
       "kode": "berpadu",
       "nama": "Berpadu",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-berpadu.webp",
       "keterangan": "Undangan Khitan tema Berpadu",
       "link_produk": "https://khitan.artoprintingpbg.com/berpadu/?to=Sahabat"
@@ -130,7 +144,8 @@
       "id": 15,
       "kode": "berseri",
       "nama": "Berseri",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-berseri.webp",
       "keterangan": "Undangan Khitan tema Berseri",
       "link_produk": "https://khitan.artoprintingpbg.com/berseri/?to=Sahabat"
@@ -139,7 +154,8 @@
       "id": 16,
       "kode": "bestari",
       "nama": "Bestari",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-bestari.webp",
       "keterangan": "Undangan Khitan tema Bestari",
       "link_produk": "https://khitan.artoprintingpbg.com/bestari/?to=Sahabat"
@@ -148,7 +164,8 @@
       "id": 17,
       "kode": "blue-night",
       "nama": "Blue Night",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-blue-night.webp",
       "keterangan": "Undangan Khitan tema Blue Night",
       "link_produk": "https://khitan.artoprintingpbg.com/blue-night/?to=Sahabat"
@@ -157,7 +174,8 @@
       "id": 18,
       "kode": "blue-sky",
       "nama": "Blue Sky",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-blue-sky.webp",
       "keterangan": "Undangan Khitan tema Blue Sky",
       "link_produk": "https://khitan.artoprintingpbg.com/blue-sky/?to=Sahabat"
@@ -166,7 +184,8 @@
       "id": 19,
       "kode": "brave-boy",
       "nama": "Brave Boy",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-brave-boy.webp",
       "keterangan": "Undangan Khitan tema Brave Boy",
       "link_produk": "https://khitan.artoprintingpbg.com/brave-boy/?to=Sahabat"
@@ -175,7 +194,8 @@
       "id": 20,
       "kode": "brave-man",
       "nama": "Brave Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-brave-man.webp",
       "keterangan": "Undangan Khitan tema Brave Man",
       "link_produk": "https://khitan.artoprintingpbg.com/brave-man/?to=Sahabat"
@@ -184,7 +204,8 @@
       "id": 21,
       "kode": "brown-kareem",
       "nama": "Brown Kareem",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-brown-kareem.webp",
       "keterangan": "Undangan Khitan tema Brown Kareem",
       "link_produk": "https://khitan.artoprintingpbg.com/brown-kareem/?to=Sahabat"
@@ -193,7 +214,8 @@
       "id": 22,
       "kode": "brown-khitan",
       "nama": "Brown Khitan",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-brown-khitan.webp",
       "keterangan": "Undangan Khitan tema Brown Khitan",
       "link_produk": "https://khitan.artoprintingpbg.com/brown-khitan/?to=Sahabat"
@@ -202,7 +224,8 @@
       "id": 23,
       "kode": "bunga-tidur",
       "nama": "Bunga Tidur",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-bunga-tidur.webp",
       "keterangan": "Undangan Khitan tema Bunga Tidur",
       "link_produk": "https://khitan.artoprintingpbg.com/bunga-tidur/?to=Sahabat"
@@ -211,7 +234,8 @@
       "id": 24,
       "kode": "cakformers",
       "nama": "Cakformers",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-cakformers.webp",
       "keterangan": "Undangan Khitan tema Cakformers",
       "link_produk": "https://khitan.artoprintingpbg.com/cakformers/?to=Sahabat"
@@ -220,7 +244,8 @@
       "id": 25,
       "kode": "capten-blue",
       "nama": "Capten Blue",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-capten-blue.webp",
       "keterangan": "Undangan Khitan tema Capten Blue",
       "link_produk": "https://khitan.artoprintingpbg.com/capten-blue/?to=Sahabat"
@@ -229,7 +254,8 @@
       "id": 26,
       "kode": "chibi-man",
       "nama": "Chibi Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-chibi-man.webp",
       "keterangan": "Undangan Khitan tema Chibi Man",
       "link_produk": "https://khitan.artoprintingpbg.com/chibi-man/?to=Sahabat"
@@ -238,7 +264,8 @@
       "id": 27,
       "kode": "chibi-man-2",
       "nama": "Chibi Man 2",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-chibi-man-2.webp",
       "keterangan": "Undangan Khitan tema Chibi Man 2",
       "link_produk": "https://khitan.artoprintingpbg.com/chibi-man-2/?to=Sahabat"
@@ -247,7 +274,8 @@
       "id": 28,
       "kode": "damai",
       "nama": "Damai",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-damai.webp",
       "keterangan": "Undangan Khitan tema Damai",
       "link_produk": "https://khitan.artoprintingpbg.com/damai/?to=Sahabat"
@@ -256,7 +284,8 @@
       "id": 29,
       "kode": "fantastic-place",
       "nama": "Fantastic Place",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-fantastic-place.webp",
       "keterangan": "Undangan Khitan tema Fantastic Place",
       "link_produk": "https://khitan.artoprintingpbg.com/fantastic-place/?to=Sahabat"
@@ -265,7 +294,8 @@
       "id": 30,
       "kode": "fast-blue",
       "nama": "Fast Blue",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-fast-blue.webp",
       "keterangan": "Undangan Khitan tema Fast Blue",
       "link_produk": "https://khitan.artoprintingpbg.com/fast-blue/?to=Sahabat"
@@ -274,7 +304,8 @@
       "id": 31,
       "kode": "fast-man",
       "nama": "Fast Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-fast-man.webp",
       "keterangan": "Undangan Khitan tema Fast Man",
       "link_produk": "https://khitan.artoprintingpbg.com/fast-man/?to=Sahabat"
@@ -283,7 +314,8 @@
       "id": 32,
       "kode": "fast-orange",
       "nama": "Fast Orange",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-fast-orange.webp",
       "keterangan": "Undangan Khitan tema Fast Orange",
       "link_produk": "https://khitan.artoprintingpbg.com/fast-orange/?to=Sahabat"
@@ -292,7 +324,8 @@
       "id": 33,
       "kode": "green",
       "nama": "Green",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-green.webp",
       "keterangan": "Undangan Khitan tema Green",
       "link_produk": "https://khitan.artoprintingpbg.com/green/?to=Sahabat"
@@ -301,7 +334,8 @@
       "id": 34,
       "kode": "green-kareem",
       "nama": "Green Kareem",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-green-kareem.webp",
       "keterangan": "Undangan Khitan tema Green Kareem",
       "link_produk": "https://khitan.artoprintingpbg.com/green-kareem/?to=Sahabat"
@@ -310,7 +344,8 @@
       "id": 35,
       "kode": "green-kareem-2",
       "nama": "Green Kareem 2",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-green-kareem-2.webp",
       "keterangan": "Undangan Khitan tema Green Kareem 2",
       "link_produk": "https://khitan.artoprintingpbg.com/green-kareem-2/?to=Sahabat"
@@ -319,7 +354,8 @@
       "id": 36,
       "kode": "green-khitan",
       "nama": "Green Khitan",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-green-khitan.webp",
       "keterangan": "Undangan Khitan tema Green Khitan",
       "link_produk": "https://khitan.artoprintingpbg.com/green-khitan/?to=Sahabat"
@@ -328,7 +364,8 @@
       "id": 37,
       "kode": "hewan-gemas",
       "nama": "Hewan Gemas",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-hewan-gemas.webp",
       "keterangan": "Undangan Khitan tema Hewan Gemas",
       "link_produk": "https://khitan.artoprintingpbg.com/hewan-gemas/?to=Sahabat"
@@ -337,7 +374,8 @@
       "id": 38,
       "kode": "kalis",
       "nama": "Kalis",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-kalis.webp",
       "keterangan": "Undangan Khitan tema Kalis",
       "link_produk": "https://khitan.artoprintingpbg.com/kalis/?to=Sahabat"
@@ -346,7 +384,8 @@
       "id": 39,
       "kode": "kareem",
       "nama": "Kareem",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-kareem.webp",
       "keterangan": "Undangan Khitan tema Kareem",
       "link_produk": "https://khitan.artoprintingpbg.com/kareem/?to=Sahabat"
@@ -355,7 +394,8 @@
       "id": 40,
       "kode": "luar-angkasa",
       "nama": "Luar Angkasa",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-luar-angkasa.webp",
       "keterangan": "Undangan Khitan tema Luar Angkasa",
       "link_produk": "https://khitan.artoprintingpbg.com/luar-angkasa/?to=Sahabat"
@@ -364,7 +404,8 @@
       "id": 41,
       "kode": "memori-cerah",
       "nama": "Memori Cerah",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-memori-cerah.webp",
       "keterangan": "Undangan Khitan tema Memori Cerah",
       "link_produk": "https://khitan.artoprintingpbg.com/memori-cerah/?to=Sahabat"
@@ -373,7 +414,8 @@
       "id": 42,
       "kode": "mengalun",
       "nama": "Mengalun",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-mengalun.webp",
       "keterangan": "Undangan Khitan tema Mengalun",
       "link_produk": "https://khitan.artoprintingpbg.com/mengalun/?to=Sahabat"
@@ -382,7 +424,8 @@
       "id": 43,
       "kode": "muscle-man",
       "nama": "Muscle Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-muscle-man.webp",
       "keterangan": "Undangan Khitan tema Muscle Man",
       "link_produk": "https://khitan.artoprintingpbg.com/muscle-man/?to=Sahabat"
@@ -391,7 +434,8 @@
       "id": 44,
       "kode": "night-man",
       "nama": "Night Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-night-man.webp",
       "keterangan": "Undangan Khitan tema Night Man",
       "link_produk": "https://khitan.artoprintingpbg.com/night-man/?to=Sahabat"
@@ -400,7 +444,8 @@
       "id": 45,
       "kode": "nirmala",
       "nama": "Nirmala",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-nirmala.webp",
       "keterangan": "Undangan Khitan tema Nirmala",
       "link_produk": "https://khitan.artoprintingpbg.com/nirmala/?to=Sahabat"
@@ -409,7 +454,8 @@
       "id": 46,
       "kode": "o-hero",
       "nama": "O Hero",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-o-hero.webp",
       "keterangan": "Undangan Khitan tema O Hero",
       "link_produk": "https://khitan.artoprintingpbg.com/o-hero/?to=Sahabat"
@@ -418,7 +464,8 @@
       "id": 47,
       "kode": "purple-man",
       "nama": "Purple Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-purple-man.webp",
       "keterangan": "Undangan Khitan tema Purple Man",
       "link_produk": "https://khitan.artoprintingpbg.com/purple-man/?to=Sahabat"
@@ -427,7 +474,8 @@
       "id": 48,
       "kode": "ramadhan",
       "nama": "Ramadhan",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-ramadhan.webp",
       "keterangan": "Undangan Khitan tema Ramadhan",
       "link_produk": "https://khitan.artoprintingpbg.com/ramadhan/?to=Sahabat"
@@ -436,7 +484,8 @@
       "id": 49,
       "kode": "retro",
       "nama": "Retro",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-retro.webp",
       "keterangan": "Undangan Khitan tema Retro",
       "link_produk": "https://khitan.artoprintingpbg.com/retro/?to=Sahabat"
@@ -445,7 +494,8 @@
       "id": 50,
       "kode": "robot-hijau",
       "nama": "Robot Hijau",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-robot-hijau.webp",
       "keterangan": "Undangan Khitan tema Robot Hijau",
       "link_produk": "https://khitan.artoprintingpbg.com/robot-hijau/?to=Sahabat"
@@ -454,7 +504,8 @@
       "id": 51,
       "kode": "saleh-man",
       "nama": "Saleh Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-saleh-man.webp",
       "keterangan": "Undangan Khitan tema Saleh Man",
       "link_produk": "https://khitan.artoprintingpbg.com/saleh-man/?to=Sahabat"
@@ -463,7 +514,8 @@
       "id": 52,
       "kode": "satria",
       "nama": "Satria",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-satria.webp",
       "keterangan": "Undangan Khitan tema Satria",
       "link_produk": "https://khitan.artoprintingpbg.com/satria/?to=Sahabat"
@@ -472,7 +524,8 @@
       "id": 53,
       "kode": "shield-man",
       "nama": "Shield Man",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-shield-man.webp",
       "keterangan": "Undangan Khitan tema Shield Man",
       "link_produk": "https://khitan.artoprintingpbg.com/shield-man/?to=Sahabat"
@@ -481,7 +534,8 @@
       "id": 54,
       "kode": "space-x",
       "nama": "Space X",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-space-x.webp",
       "keterangan": "Undangan Khitan tema Space X",
       "link_produk": "https://khitan.artoprintingpbg.com/space-x/?to=Sahabat"
@@ -490,7 +544,8 @@
       "id": 55,
       "kode": "star-doodle",
       "nama": "Star Doodle",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-star-doodle.webp",
       "keterangan": "Undangan Khitan tema Star Doodle",
       "link_produk": "https://khitan.artoprintingpbg.com/star-doodle/?to=Sahabat"
@@ -499,7 +554,8 @@
       "id": 56,
       "kode": "starry-night",
       "nama": "Starry Night",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-starry-night.webp",
       "keterangan": "Undangan Khitan tema Starry Night",
       "link_produk": "https://khitan.artoprintingpbg.com/starry-night/?to=Sahabat"
@@ -508,7 +564,8 @@
       "id": 57,
       "kode": "super-hero",
       "nama": "Super Hero",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-super-hero.webp",
       "keterangan": "Undangan Khitan tema Super Hero",
       "link_produk": "https://khitan.artoprintingpbg.com/super-hero/?to=Sahabat"
@@ -517,7 +574,8 @@
       "id": 58,
       "kode": "super-hero-2",
       "nama": "Super Hero 2",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-super-hero-2.webp",
       "keterangan": "Undangan Khitan tema Super Hero 2",
       "link_produk": "https://khitan.artoprintingpbg.com/super-hero-2/?to=Sahabat"
@@ -526,7 +584,8 @@
       "id": 59,
       "kode": "super-robot",
       "nama": "Super Robot",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-super-robot.webp",
       "keterangan": "Undangan Khitan tema Super Robot",
       "link_produk": "https://khitan.artoprintingpbg.com/super-robot/?to=Sahabat"
@@ -535,7 +594,8 @@
       "id": 60,
       "kode": "syahdu",
       "nama": "Syahdu",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-syahdu.webp",
       "keterangan": "Undangan Khitan tema Syahdu",
       "link_produk": "https://khitan.artoprintingpbg.com/syahdu/?to=Sahabat"
@@ -544,7 +604,8 @@
       "id": 61,
       "kode": "transformers",
       "nama": "Transformers",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-transformers.webp",
       "keterangan": "Undangan Khitan tema Transformers",
       "link_produk": "https://khitan.artoprintingpbg.com/transformers/?to=Sahabat"
@@ -553,7 +614,8 @@
       "id": 62,
       "kode": "v-hero",
       "nama": "V Hero",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-v-hero.webp",
       "keterangan": "Undangan Khitan tema V Hero",
       "link_produk": "https://khitan.artoprintingpbg.com/v-hero/?to=Sahabat"
@@ -562,11 +624,12 @@
       "id": 63,
       "kode": "yellow-aesthetic",
       "nama": "Yellow Aesthetic",
-      "kategori": "Khitan",
+      "Acara": "Khitan",
+      "Tema": "Standar",
       "img": "https://ik.imagekit.io/mustofa/web/khitan/preview-yellow-aesthetic.webp",
       "keterangan": "Undangan Khitan tema Yellow Aesthetic",
       "link_produk": "https://khitan.artoprintingpbg.com/yellow-aesthetic/?to=Sahabat"
     }
   ],
-  "updated": "18/7/2025, 16.36.13"
+  "updated": "18/7/2025, 16.38.46"
 }
