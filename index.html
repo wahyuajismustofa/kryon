@@ -3,63 +3,292 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<title>Katalog - Kryon</title>
+	<title>Kryon</title>
 	<meta name="description" content="Kryon adalah solusi percetakan terpercaya untuk semua kebutuhan Anda. Melayani cetak undangan, brosur, spanduk, kartu nama, dan merchandise custom dengan kualitas terbaik dan harga bersahabat.">
 	<meta name="keywords" content="Kryon percetakan, jasa cetak terpercaya, solusi percetakan terbaik, percetakan berkualitas, percetakan murah, cepat">
 	<meta name="author" content="Kryon">
 	<meta name="robots" content="index, follow">
-	<meta property="og:title" content="Katalog - Kryon">
+	<meta property="og:title" content="Kryon">
 	<meta property="og:description" content="Kryon adalah solusi percetakan terpercaya untuk semua kebutuhan Anda. Melayani cetak undangan, brosur, spanduk, kartu nama, dan merchandise custom dengan kualitas terbaik dan harga bersahabat.">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://www.karyaion.my.id">
-	<meta property="og:image" content="https://ik.imagekit.io/mustofa/web/img/logo-kryon-banner.png">
+	<meta property="og:image" content="https://karyaion.my.id/assets/images/logo.png">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:title" content="Katalog - Kryon">
+	<meta name="twitter:title" content="Kryon">
 	<meta name="twitter:description" content="Kryon adalah solusi percetakan terpercaya untuk semua kebutuhan Anda. Melayani cetak undangan, brosur, spanduk, kartu nama, dan merchandise custom dengan kualitas terbaik dan harga bersahabat.">
-	<meta name="twitter:image" content="https://ik.imagekit.io/mustofa/web/img/logo-kryon-banner.png">
-	<link rel="icon" href="https://ik.imagekit.io/mustofa/web/img/logo-kryon-kotak.png" type="image/png">
-	<link rel="apple-touch-icon" href="https://ik.imagekit.io/mustofa/web/img/logo-kryon-kotak.png">
+	<meta name="twitter:image" content="https://karyaion.my.id/assets/images/logo.png">
+	<link rel="icon" href="https://karyaion.my.id/assets/images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="https://karyaion.my.id/assets/images/favicon.ico">
 	<meta name="theme-color" content="#ffffff">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">  
 
-	<script src="js/main.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/tailwind.css" />
+  <script src="/assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/wahyuajismustofa/berbagi-koding/js/sync-data-repo.js"></script>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="container flex column" id="loading-screen">
-	<div class="spinner"></div>
-</div>
-  <main id="main">
-    <header>
-      <div class="container flex row flex-align-center flex-justify-center">
-			<div id="nav">
-			<div class="container-20p"><span class="menu-toggle" id="burger">☰</span></div>
-			<div class="container-60p"><img src="https://ik.imagekit.io/mustofa/web/img/logo-kryon-teks.png" alt="Logo Kryon Teks" style="height:30px;"></div>
-			<div class="container-20p"></div>
-			</div>
-			<div class="dropdown imp-hidden" id="dropdownMenu"></div>
+
+  <!-- Header -->
+  <header>
+    <div class="w-full flex justify-between items-center bg-sky-700 text-white p-6 shadow">
+      <!-- Tombol menu mobile -->
+      <div class="md:hidden">
+        <a onclick="toggleMenu()">
+          <svg class="text-white h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </a>
       </div>
-    </header>
-    <div class="container">
-      <img src="https://ik.imagekit.io/mustofa/web/img/bannerweb-kryon.png" alt="Banner">
+
+      <!-- Navigasi Desktop -->
+      <nav class="hidden md:flex gap-2 space-x-4">
+        <a href="#produk" >Produk</a>
+        <a href="#fitur" >Fitur</a>
+        <a href="#kontak" >Kontak</a>
+      </nav>
+
+      <!-- Logo -->
+      <a href="/" class="w-32 sm:w-40 block group transition-all duration-300">
+        <svg viewBox="0 0 401 92" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto fill-white group-hover:fill-sky-200 dark:fill-gray-200 transition-colors duration-300">
+          <path d="M400.938 91H389.29L342.442 19.96V91H330.794V1.656H342.442L389.29 72.568V1.656H400.938V91Z"/>
+          <path d="M270.617 91.896C262.339 91.896 254.787 89.976 247.961 86.136C241.134 82.2107 235.715 76.792 231.704 69.88C227.779 62.8827 225.816 55.032 225.816 46.328C225.816 37.624 227.779 29.816 231.704 22.904C235.715 15.9067 241.134 10.488 247.961 6.64799C254.787 2.72266 262.339 0.759995 270.617 0.759995C278.979 0.759995 286.574 2.72266 293.401 6.64799C300.227 10.488 305.603 15.864 309.529 22.776C313.454 29.688 315.417 37.5387 315.417 46.328C315.417 55.1173 313.454 62.968 309.529 69.88C305.603 76.792 300.227 82.2107 293.401 86.136C286.574 89.976 278.979 91.896 270.617 91.896ZM270.617 81.784C276.846 81.784 282.435 80.3333 287.385 77.432C292.419 74.5307 296.345 70.392 299.161 65.016C302.062 59.64 303.513 53.4107 303.513 46.328C303.513 39.16 302.062 32.9307 299.161 27.64C296.345 22.264 292.462 18.1253 287.513 15.224C282.563 12.3227 276.931 10.872 270.617 10.872C264.302 10.872 258.67 12.3227 253.72 15.224C248.771 18.1253 244.846 22.264 241.944 27.64C239.128 32.9307 237.72 39.16 237.72 46.328C237.72 53.4107 239.128 59.64 241.944 65.016C244.846 70.392 248.771 74.5307 253.72 77.432C258.755 80.3333 264.387 81.784 270.617 81.784Z"/>
+          <path d="M217.883 1.784L188.827 57.336V91H177.178V57.336L147.995 1.784H160.923L182.939 46.968L204.954 1.784H217.883Z"/>
+          <path d="M124.52 91L103.271 54.52H89.1915V91H77.5435V1.784H106.344C113.085 1.784 118.76 2.936 123.368 5.24C128.061 7.544 131.559 10.6587 133.863 14.584C136.167 18.5093 137.32 22.9893 137.32 28.024C137.32 34.168 135.528 39.5867 131.944 44.28C128.445 48.9733 123.154 52.088 116.072 53.624L138.471 91H124.52ZM89.1915 45.176H106.344C112.658 45.176 117.394 43.64 120.551 40.568C123.709 37.4107 125.288 33.2293 125.288 28.024C125.288 22.7333 123.709 18.6373 120.551 15.736C117.479 12.8347 112.744 11.384 106.344 11.384H89.1915V45.176Z"/>
+          <path d="M49.3025 91L12.5665 50.296V91H0.918503V1.784H12.5665V43.128L49.4305 1.784H64.1505L23.7025 46.456L64.5345 91H49.3025Z"/>
+        </svg>
+      </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/6285161517176" target="_blank"
+      class="inline-flex items-center space-x-2 text-white px-4 py-2 rounded transition">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="text-white w-5 h-5" viewBox="0 0 24 24">
+        <path
+          d="M20.52 3.48A11.77 11.77 0 0 0 12.06.01a11.86 11.86 0 0 0-10.5 17.06L.01 24l7.12-1.86a11.87 11.87 0 0 0 5.93 1.53h.02a11.86 11.86 0 0 0 11.54-11.54 11.74 11.74 0 0 0-3.1-8.65zM12.06 21.88a9.89 9.89 0 0 1-5.05-1.38l-.36-.21-4.22 1.1 1.13-4.11-.24-.42a9.86 9.86 0 1 1 18.2-5.24 9.88 9.88 0 0 1-9.46 10.26zM17.41 14.8c-.29-.14-1.7-.84-1.97-.94s-.46-.14-.66.14-.76.94-.93 1.13-.34.21-.63.07a8.16 8.16 0 0 1-2.42-1.49 9.07 9.07 0 0 1-1.66-2.06c-.17-.29 0-.44.13-.58.13-.13.29-.34.42-.5s.21-.29.31-.5.05-.36-.02-.5-.66-1.6-.91-2.18c-.24-.58-.5-.5-.66-.5h-.56a1.1 1.1 0 0 0-.79.37c-.27.29-1.04 1.01-1.04 2.47s1.07 2.87 1.21 3.07a13.85 13.85 0 0 0 4.58 4.3c.64.28 1.13.45 1.52.58.64.2 1.22.17 1.68.1.51-.07 1.7-.7 1.94-1.38s.24-1.27.17-1.38c-.06-.11-.27-.18-.56-.32z" />
+      </svg>
+    </a>
+
+  </div>
+
+  <!-- Navigasi Mobile -->
+  <nav id="mobile-menu" class="md:hidden flex flex-row gap-2 px-6 py-3 bg-sky-500 text-white">
+    <a href="#produk" >Produk</a>
+    <a href="#fitur" >Fitur</a>
+    <a href="#kontak" >Kontak</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="hero" style="background-image: url('https://ik.imagekit.io/mustofa/web/img/walimah/image.png');">
+  
+  <!-- Overlay abu-abu -->
+  <div class="absolute inset-0 bg-black/30 z-0"></div>
+  <!-- Konten -->
+  <div class="relative z-10">
+    <h2 class="text-3xl font-bold text-white drop-shadow-lg">Undangan Digital untuk Acara Spesialmu</h2>
+    <p class="mb-6 max-w-xl mx-auto text-lg text-white drop-shadow-md">
+      Cocok untuk berbagai acara — praktis, estetik, dan personal.
+    </p>
+    <button
+      onclick="window.location.href='#produk'"
+      class="bg-white text-sky-700 font-semibold py-2 px-6 rounded-full shadow hover:bg-slate-100 transition">
+      Pilih Tema
+    </button>
+  </div>
+</section>
+ 
+<section id="produk" class="py-16 bg-white">
+  <div class="container mx-auto px-4">
+    <h3 class="text-center">Pilih Tema Undangan</h3>
+    <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Tersedia berbagai tema undangan yang elegan, Islami, modern, hingga tradisional — tinggal pilih sesuai selera dan acara Anda.</p>
+
+    <!-- Filter Produk -->
+    <div id="filter-produk">
     </div>
-    <div class="container flex row flex-justify-space-evenly" style="padding:20px;">
-      <button class="whatsapp" onclick="chatAdmin('Hallo kak, saya ingin bertanya tentang produk Kryon')">
-        <img src="https://ik.imagekit.io/mustofa/web/img/icon-wa.png" class="icon-small"> Hubungi Kami
-      </button>
+    <!-- Daftar Produk -->
+    <div id="daftar-produk">
     </div>
 
-    <div class="container" style="padding:10px;">
-      <h1 class="nama_layanan" id="judul"></h1><br>
-      <p class="keterangan_layanan" id="deskripsi"></p>
+  </div>
+</section>
+
+<!-- Fitur -->
+<section id="fitur" class="py-16 bg-sky-50">
+  <div class="container mx-auto px-4">
+    <h3 class="text-center">Fitur Undangan Digital</h3>
+    <p class="text-center max-w-2xl mx-auto text-lg text-gray-600 mb-10">
+      Undangan digital Kryon dirancang untuk memberikan pengalaman yang modern, personal, dan interaktif. Mulai dari nama tamu otomatis hingga RSVP real-time, semua fitur dibuat agar momen spesialmu lebih berkesan dan mudah dibagikan.
+    </p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+  <!-- 1. Nama tamu -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9 9 0 0112 3a9 9 0 016.879 14.804M15 21H9m6 0a3 3 0 00-6 0" />
+      </svg>
     </div>
-	<div class="container scroll-x flex row flex-align-center" id="produk-filter"></div>
-    <div class="container flex-wrap flex-align-center flex-justify-center">
-      <div class="produk-container" id="produk-container"></div>
+    <div>
+      <h4>Nama Tamu Otomatis</h4>
+      <p>Link unik menampilkan nama tamu secara personal di undangan.</p>
     </div>
-  </main>
+  </div>
+
+  <!-- 2. Detail & Countdown -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+    </div>
+    <div>
+      <h4>Detail Acara & Hitung Mundur</h4>
+      <p>Waktu, tempat, dan countdown menuju hari H secara real-time.</p>
+    </div>
+  </div>
+
+  <!-- 3. Profil -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21C12 21 5 14.686 5 9.5C5 6.462 7.462 4 10.5 4C11.998 4 13.4 4.75 14 6C14.6 4.75 16.002 4 17.5 4C20.538 4 23 6.462 23 9.5C23 14.686 16 21 16 21H12Z" />
+      </svg>
+    </div>
+    <div>
+      <h4>Profil</h4>
+      <p>Profil pasangan, anak, atau keluarga ditampilkan dengan visual menarik.</p>
+    </div>
+  </div>
+
+  <!-- 4. RSVP -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12H8m0 0l-4 4m4-4l-4-4m16 8h-4m0 0l4-4m-4 4l4 4" />
+      </svg>
+    </div>
+    <div>
+      <h4>Form RSVP</h4>
+      <p>Konfirmasi kehadiran langsung dari halaman undangan.</p>
+    </div>
+  </div>
+
+  <!-- 5. Google Maps -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A2 2 0 013 15.382V5.618a2 2 0 011.553-1.894L9 1m0 19v-4m0 4l6-3m-6 3v-4m6-15l5.447 2.724A2 2 0 0121 5.618v9.764a2 2 0 01-1.553 1.894L15 23m0-19v4m0-4L9 5" />
+      </svg>
+    </div>
+    <div>
+      <h4>Google Maps</h4>
+      <p>Lokasi acara dengan navigasi langsung melalui Google Maps.</p>
+    </div>
+  </div>
+
+  <!-- 6. Pesan & Doa -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+      </svg>
+    </div>
+    <div>
+      <h4>Pesan & Doa</h4>
+      <p>Tamu bisa mengirimkan ucapan atau doa langsung dari undangan.</p>
+    </div>
+  </div>
+
+  <!-- 7. Galeri Foto/Video -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h2l2-3h10l2 3h2a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V9a2 2 0 012-2z" />
+        <circle cx="12" cy="13" r="4" />
+      </svg>
+    </div>
+    <div>
+      <h4>Galeri Foto/Video</h4>
+      <p>Dokumentasi visual dari prewedding, acara, hingga video sinematik.</p>
+    </div>
+  </div>
+
+  <!-- 8. Custom Domain -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2a10 10 0 100 20 10 10 0 000-20zm2.5 8h-5m5 0a8.5 8.5 0 01-1.75 4.5m1.75-4.5a8.5 8.5 0 00-1.75-4.5m-5 0h5m-5 0a8.5 8.5 0 001.75 4.5m-1.75-4.5a8.5 8.5 0 011.75 4.5" />
+      </svg>
+    </div>
+    <div>
+      <h4>Custom Domain / Subdomain</h4>
+      <p>Gunakan link seperti <code>namamu.karyaion.my.id</code> atau domain pribadi milikmu.</p>
+    </div>
+  </div>
+
+  <!-- 9. Tambah ke Kalender -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2m6-2a10 10 0 11-20 0 10 10 0 0120 0z" />
+      </svg>
+    </div>
+    <div>
+      <h4>Tambah ke Kalender</h4>
+      <p>Undangan bisa langsung ditambahkan ke Google/Apple Calendar tamu.</p>
+    </div>
+  </div>
+
+  <!-- 10. Musik Latar -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-2v13" />
+        <circle cx="6" cy="18" r="3" />
+      </svg>
+    </div>
+    <div>
+      <h4>Musik Latar</h4>
+      <p>Lagu pilihan memutar otomatis saat undangan dibuka (opsional).</p>
+    </div>
+  </div>
+
+  <!-- 11. Statistik RSVP -->
+  <div class="item-fitur">
+    <div class="flex-shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 11V3m4 14v-6m4 10v-2M5 21V13m4 8v-4" />
+      </svg>
+    </div>
+    <div>
+      <h4>Statistik RSVP</h4>
+      <p>Lihat jumlah tamu yang sudah melihat dan RSVP melalui integrasi Google Sheet.</p>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</section>
+
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-16 bg-white text-center">
+    <h3>Ingin Buat Undanganmu?</h3>
+    <p class="mb-6">Hubungi kami dan mulai buat undangan digitalmu sekarang juga!</p>
+    <a href="https://wa.me/6285161517176" class="inline-block bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition">Chat WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="bg-gray-800 text-center py-6">
+    <p class="text-white">&copy; 2025 KRYON</p>
+  </footer>
+<script>
+
+</script>
 </body>
 </html>
