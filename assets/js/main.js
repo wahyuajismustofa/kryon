@@ -59,8 +59,13 @@ function updateDataProdukShow() {
 
 async function fetchJsonData(url) {
   try {
-    const response = await fetch(url);
+    const timestamp = Date.now();
+    const connector = url.includes('?') ? '&' : '?';
+    const fullUrl = `${url}${connector}t=${timestamp}`;
+
+    const response = await fetch(fullUrl);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+    
     const data = await response.json();
     return data;
   } catch (error) {
@@ -68,6 +73,7 @@ async function fetchJsonData(url) {
     return null;
   }
 }
+
 
 function filterData(data, filters) {
   return data.filter(item => {
